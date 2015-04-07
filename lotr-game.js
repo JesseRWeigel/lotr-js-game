@@ -3,7 +3,6 @@ var brave = prompt('Are you brave? YES or NO').toUpperCase();
 var armed = prompt('Do you have a weapon? YES or NO').toUpperCase();
 switch(user) {
     case ('ORC'):
-        var brave = prompt('Are you brave? YES or NO').toUpperCase();
         if(brave === 'YES' || armed === 'YES') {
             alert('You defeated the Orc!');
         } else {
