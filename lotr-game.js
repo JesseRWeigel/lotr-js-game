@@ -5,26 +5,26 @@ switch(user) {
     case ('ORC'):
         var brave = prompt('Are you brave? YES or NO').toUpperCase();
         if(brave === 'YES' || armed === 'YES') {
-            console.log('You defeated the Orc!');
+            alert('You defeated the Orc!');
         } else {
-        console.log('You have been defeated.');
+          alert('You have been defeated.');
         }
         break;
     case ('TROLL'):
         if(brave === 'YES' && armed === 'YES') {
-            console.log('You defeated the Troll!');
+          alert('You defeated the Troll!');
         } else {
-        console.log('You have been defeated.');
+          alert('You have been defeated.');
         }
         break;
     case ('WITCH KING'):
         var woman = prompt('Are you a woman? YES or NO').toUpperCase();
         if(brave === 'YES' && armed === 'YES' && woman === 'YES') {
-            console.log('You defeated the Witch King!');
+          alert('You defeated the Witch King!');
         } else {
-        console.log('Fool! No man can defeat me!');
+          alert('Fool! No man can defeat me!');
         }
         break;
     default:
-        console.log('Please enter ORC, TROLL, or WITCH KING.');
+      alert('Please enter ORC, TROLL, or WITCH KING.');
 }
