@@ -30,7 +30,7 @@ switch(user) {
         if(brave === 'YES' && armed === 'YES' && sting === 'YES' && phial === 'YES') {
             alert('You mortally wounded Shelob! She is retreating into her lair.');
         } else {
-          alert('You have been sung by Shelob and are Paralized!.');
+          alert('You have been stung by Shelob and are Paralized!.');
         }
         break;
     case ('OLIPHANT'):
