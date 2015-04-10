@@ -50,5 +50,5 @@ switch(user) {
         }
         break;
     default:
-      alert('Please enter ORC, TROLL, or WITCH KING.');
+      alert('Please enter ORC, TROLL, or WITCH KING, SHELOB, OLIPHANT, or BALROG.');
 }
