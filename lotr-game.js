@@ -1,6 +1,6 @@
 var user = prompt('Who do you want to battle? Enter ORC, TROLL, WITCH KING, SHELOB, OLIPHANT, or BALROG.').toUpperCase();
 var brave = prompt('Are you brave? YES or NO').toUpperCase();
-var armed = prompt('Do you have a weapon? YES or NO').toUpperCase();
+var armed = prompt('Are you armed? YES or NO').toUpperCase();
 switch(user) {
     case ('ORC'):
         if(brave === 'YES' || armed === 'YES') {
